@@ -1,0 +1,30 @@
+.Smurfs {
+
+}
+
+.Smurfs h1 {
+  color: lightskyblue;
+}
+
+.Smurfs ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.Smurfs li {
+  width: 100%;
+  min-width: 200px;
+  max-width: calc(33% - 20px);
+  margin: 0 10px 20px;
+  list-style-type: none;
+  border: solid 1px #ccc;
+  border-radius: 12px;
+}
+
+.Smurfs h3 {
+  color: lightskyblue;
+  text-shadow: -1px 1px 0 rgba(0,0,0,0.1);
+}

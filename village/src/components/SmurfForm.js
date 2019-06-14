@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SmurfForm.css';
 
 class SmurfForm extends Component {
   constructor(props) {
@@ -12,13 +13,23 @@ class SmurfForm extends Component {
 
   addSmurf = event => {
     event.preventDefault();
-    // add code to create the smurf using the api
+    let containcm = this.state.height.substr(-2);
+    if( containcm !== 'cm') {
+      let addCM = this.state.height + 'cm';
+      this.setState({
+        height: addCM
+      }, () => this.props.addSmurfToServer(this.state, this.clearState));
+    } else {
+      this.props.addSmurfToServer(this.state, this.clearState);
+    }
+  }
 
+  clearState = () => {
     this.setState({
       name: '',
       age: '',
       height: ''
-    });
+    })
   }
 
   handleInputChange = e => {
@@ -28,6 +39,7 @@ class SmurfForm extends Component {
   render() {
     return (
       <div className="SmurfForm">
+        <h1>Add a Smurf to the Village</h1>
         <form onSubmit={this.addSmurf}>
           <input
             onChange={this.handleInputChange}
