@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Smurf from './Smurf';
+import './Smurfs.css';
 
 class Smurfs extends Component {
   render() {
@@ -11,6 +12,7 @@ class Smurfs extends Component {
           {this.props.smurfs.map(smurf => {
             return (
               <Smurf
+                key={smurf.id}
                 name={smurf.name}
                 id={smurf.id}
                 age={smurf.age}

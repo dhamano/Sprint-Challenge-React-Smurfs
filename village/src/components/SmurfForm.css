@@ -1,0 +1,47 @@
+.SmurfForm {
+  margin: 0 auto 50px;
+}
+
+.SmurfForm h1 {
+  color: lightskyblue;
+  text-shadow: -1px 1px 0 rgba(0,0,0,0.25);
+}
+
+.SmurfForm form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px 10px 4px;
+  border: solid 1px #ccc;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-flow: column
+}
+
+.SmurfForm input, .SmurfForm button {
+  margin: 0 10px 20px;
+  font-size: 1rem;
+  line-height: 1em;
+  border-radius: 8px;
+}
+
+.SmurfForm input {
+  padding: 10px 12px;;
+  border: solid 1px #ccc;
+}
+
+.SmurfForm button {
+  padding: 10px 20px;
+  background: white;
+  color: orange;
+  border: solid 1px orange;
+  -moz-appearance: none;
+  appearance: none;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
+.SmurfForm button:hover {
+  background: orange;
+  color: white;
+}
