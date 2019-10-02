@@ -49,8 +49,8 @@ Follow these steps to set up and work on your project:
 - [x] Add PM as collaborator on Github.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 - [x] **RUN** `yarn install or npm install` at the root to retrieve all the dependencies for the node server. You will not need to create any react apps here nor will you need to install any other dependencies. You should have all you need in this repo.
 - [x] **LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interact with the **API**.
 - [x] **RUN** `yarn start or npm start` to get your API up and running on `http://localhost:3333`. This is the **URL** you're going to need to use within your React app in order to make AJAX requests for data.
@@ -61,9 +61,9 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by  merging the branch back into master.
 ## Minimum Viable Product
 
 The MVP of this project will be broken up between 2 stages. Follow each step and be sure to use your design/style skills to make this application look professional.
@@ -102,16 +102,16 @@ Add a Router to this application by using React Router.
 
 **HTTP/Axios Stretch Problems**
 
-- [ ] The following two endpoints are here for you if you'd like to push yourselves a little further.
+- [x] The following two endpoints are here for you if you'd like to push yourselves a little further.
 
-- [ ] **HINT** if you are going to be working on Stretch Problem, you'll need to use that unique `id`.
+- [x] **HINT** if you are going to be working on Stretch Problem, you'll need to use that unique `id`.
 
 **DELETE '/smurfs/123', where 123 is the Id of the smurf you want to remove**
 
-- [ ] For this endpoint to work, all you need is an id sent up as part of the request url.
+- [x] For this endpoint to work, all you need is an id sent up as part of the request url.
 
-- [ ] If your delete worked, you'll get a list of the smurfs back.
-- [ ] Example:
+- [x] If your delete worked, you'll get a list of the smurfs back.
+- [x] Example:
 
 ```js
 // output: `A list of all the smurfs in the Smurf DB will be returned`
@@ -133,8 +133,8 @@ Add a Router to this application by using React Router.
 
 **PUT '/smurfs/123', where 123 is the Id of the smurf you want to modify**
 
-- [ ] For this endpoint to work, you'll need an `id` added to the URL, and at least one field to update on the Smurf object. `name` `age` `height`.
-- [ ] Example:
+- [x] For this endpoint to work, you'll need an `id` added to the URL, and at least one field to update on the Smurf object. `name` `age` `height`.
+- [x] Example:
 
 ```js
 // input:

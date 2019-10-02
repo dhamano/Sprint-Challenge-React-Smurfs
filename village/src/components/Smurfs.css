@@ -6,6 +6,10 @@
   color: lightskyblue;
 }
 
+.Smurfs button.edit {
+  margin-bottom: 20px;
+}
+
 .Smurfs ul {
   margin: 0 auto;
   padding: 0;
@@ -19,9 +23,26 @@
   min-width: 200px;
   max-width: calc(33% - 20px);
   margin: 0 10px 20px;
+  padding-bottom: 20px;
   list-style-type: none;
   border: solid 1px #ccc;
   border-radius: 12px;
+}
+
+.Smurfs button {
+  padding: 6px 10px;
+  background: white;
+  color: #aaa;
+  border: solid 1px #aaa;
+  cursor: pointer;
+  -moz-appearance: none;
+  appearance: none;
+  transition: all 0.25s linear;
+}
+
+.Smurfs button:hover {
+  background: #aaa;
+  color: white;
 }
 
 .Smurfs h3 {
